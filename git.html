@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tableau des commandes pour git</title>
+</head>
+<body>
+    <link rel="stylesheet" href="git.css">
+    
+
+    <table>
+        <caption>Tableau des commandes Git</caption>
+
+    
+        <thead>
+            <tr>
+                <span class=A1><th>Commande</th></span>
+                <span class=A2><th>Description</th></span>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>git init</td>
+                <td>Initialise le dépôt (attention : mettre le bon dossier)</td>
+            </tr>
+
+            <tr>
+                <td>git add .</td> 
+                <td>Ajoute toutes les modifications</td>
+            </tr>
+
+            <tr>
+                <td>git commit -m "explication"</td>
+                <td>créer un nouveau commit. git add pousse les fichiers en zone d'index,
+                    git commit les sauvegarde réellement dans un nouveau commit
+                </td>
+            </tr>
+
+            <tr>
+                <td>git log</td>
+                <td>liste des commits</td>
+            </tr>
+
+            <tr>
+                <td>git log -n2</td>
+                <td>affiche les 2 derniers commits</td>
+            </tr>
+
+            <tr>
+                <td>git show sha-1</td>
+                <td>voir commit spécifique (cliquer sur la molette de la souris pour coller)</td>
+            </tr>
+
+            <tr>
+                <td>git checkout sha-1</td>
+                <td>remettre la version du sha-1</td>
+            </tr>
+
+            <tr>
+                <td>git checkout main</td>
+                <td>remettre la version la plus récente</td>
+            </tr>
+
+            <tr>
+                <td>git clone "lien-github.com"</td>
+                <td>récupérer un travail depuis un dépôt distant</td>
+            </tr>
+
+            <tr>
+                <td>git push -u origin main</td>
+                <td>pousse les modifications vers le serveur</td>
+            </tr>
+
+            <tr>
+                <td>git push -f origin main</td> 
+                <td>pousse de force des modifications (déconseillé par beaucoup de dev</td>
+            </tr>
+
+            <tr>
+                <td>pwd</td>
+                <td>savoir dans quel dossier je me trouve</td>
+            </tr>
+
+            <tr>
+                <td>mkdir "dossier"</td>
+                <td>créer un dossier</td>
+            </tr>
+
+            <tr>
+                <td>touch "fichier.txt"</td>
+                <td>créer un fichier</td>
+            </tr>
+
+            <tr>
+                <td>ls</td>
+                <td>liste le dossier courant</td>
+            </tr>
+
+            <tr>
+                <td>ls -la</td>
+                <td>liste tout plus précisément que ls</td>
+            </tr>
+
+            <tr>
+                <td>cd "dossier"</td>
+                <td>aller dans le dossier</td>
+            </tr>
+
+            <tr>
+                <td>cd ..</td>
+                <td>remonter d'un dossier dans l'arborescence</td>
+            </tr>
+
+            <tr>
+                <td>git status</td>
+                <td>état du fichier</td>
+            </tr>
+
+            <tr>
+                <td>git diff</td>
+                <td>affiche les modifications avant commit</td>
+            </tr>
+
+            <tr>
+                <td>git config --global user.name</td>
+                <td>configurer son nom</td>
+            </tr>
+
+            <tr>
+                <td>git config --global user.email</td>
+                <td>mon e-mail</td>
+            </tr>
+
+            <tr>
+                <td>git config --global --list</td>
+                <td>affiche nom et mail</td>
+            </tr>
+    </div>
+    </div>
+
+        </tbody>
+    </table>
+    
+</body>
+</html>
