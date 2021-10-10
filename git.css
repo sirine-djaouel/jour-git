@@ -1,0 +1,52 @@
+body {
+  
+  color: rgb(110, 60, 110);
+  align-content: center;
+  background-image: url(pastel.jpg);
+}
+
+caption {
+
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-shadow: 1px 2px 2px rgb(100, 16, 100);
+    color: rgb(179, 97, 179);
+}
+
+.A1, .A2 {
+    color: white;
+    text-align: left;
+  }
+  
+
+    thead th {
+    box-shadow: 0 0 0 4px rgb(66, 56, 68);
+    border-radius: 5px;
+    color: rgb(184, 128, 194);
+    font-size: 30px;
+    background-color: rgb(230, 217, 212);
+    text-shadow: 1px 1px 1px black;
+  }
+
+  tbody {
+    box-shadow: 0 0 0 4px rgb(66, 56, 68);
+    border-radius: 5px;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: rgb(214, 189, 179);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: rgb(202, 160, 143);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  table {
+    margin: auto;
+  }
